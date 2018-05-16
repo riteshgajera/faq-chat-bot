@@ -3,7 +3,7 @@ This is a Q/A chat bot. I have created this chat bot using Microsoft Bot Framewo
 
 <h2>Guide</h2> 
 qnamaker: https://www.qnamaker.ai<br/>
-i.e, whereas, dev can create QnA service for chat bot.
+i.e, whereas, dev can create QnA service for chat bot.<br/>
 
 **Create a QnA service**<br/>
 *Refer the qnmaker document and create service.[Checkout this document!](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/overview/overview)
