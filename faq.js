@@ -24,8 +24,8 @@ module.exports = (session, args, next) => {
             console.log(response.answers[0].score)
             if(response.answers[0].score > 50 || response.answers[0].score == 100) {
                 session.endConversation(response.answers[0].answer);
-            } else if (response.answers[0].score > 0) {
-                session.send(`I'm not sure if this is correct.`);
+            } else if (response.answers[0].score > 0 || response.answers[0].score < 50) {
+                session.send(`Not sure, Is this correct or what you are expected?`);
                 session.endConversation(response.answers[0].answer);
             } else {
                 session.endConversation(`I don't have an answer for the same.`);
